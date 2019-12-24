@@ -1,0 +1,43 @@
+.topicPage {
+    display: flex;
+    flex-direction: column;
+}
+ul.topicNav {
+    background-color: #f4511e;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul.topicNav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.topicNav li a {
+    color: #FFF;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 11px 25px;
+    display: inline-block;
+}
+ul.topicNav li a:hover {
+    color: yellow;
+}
+.articles {
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 481px) and (min-width: 320px) {
+    ul.topicNav {
+        height: 38px;
+    }
+    ul.topicNav li a {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    ul.topicNav li a:hover {
+        color: yellow;
+    }
+}

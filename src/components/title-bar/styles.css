@@ -1,0 +1,24 @@
+.titleBar {
+    background-color: #f4511e;
+    height: 44px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    display: table;
+}
+.titleBar h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: large;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 481px) and (min-width: 320px) {
+    .titleBar {
+        height: 36px;
+    }
+    .titleBar h1 {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,43 @@
+.header {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoContainer {
+    display: inline;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 10px;
+}
+.nameContainer a {
+    display: block;
+    text-decoration: none;
+    color: #f4511e;
+}
+.siteName {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Helvetica,serif;
+    margin-bottom: 5px;
+}
+.slogan {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-family: Helvetica,serif;
+}
+.nameContainer a,
+.nameContainer a:active,
+.nameContainer a:focus,
+.nameContainer a:hover {
+    color: #f4511e;
+    text-decoration: none;
+}

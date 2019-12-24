@@ -1,0 +1,14 @@
+version: '3'
+services:
+  node:
+    container_name: reactjs-web
+    build: .
+    volumes:
+      - ./:/var/www/reactjs-web
+      - /var/www/reactjs-web/node_modules
+      - /var/www/reactjs-web/build
+    ports:
+      - 8080:8080
+    environment:
+      NODE_ENV: production
+    command: npm run start-prod

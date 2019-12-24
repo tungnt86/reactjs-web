@@ -1,0 +1,13 @@
+.pageNotFoundContent {
+    padding: 100px;
+    min-height: 40vh;
+    margin: auto;
+    color: #666666;
+    text-align: center;
+    display: table;
+}
+.pageNotFoundContent p {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

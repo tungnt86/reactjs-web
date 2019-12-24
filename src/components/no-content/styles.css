@@ -1,0 +1,8 @@
+.noContentContainer {
+    padding: 100px 50px;
+    text-align: center;
+}
+.noContentText {
+    color: #666666;
+    font-size: 0.9rem;
+}
