@@ -11,8 +11,8 @@ const routes = [
         path: '/',
         exact: true,
         component: Repository,
-        language: 'go',
-        fetchData: (path = '') => fetchTrendingRepositories('go')
+        language: 'Go',
+        fetchData: (path = '') => fetchTrendingRepositories('Go')
     },
     {
         path: '/about.html',
@@ -28,8 +28,8 @@ const routes = [
         path: '/trending-repositories/go',
         exact: true,
         component: Repository,
-        language: 'go',
-        fetchData: (path = '') => fetchTrendingRepositories('go')
+        language: 'Go',
+        fetchData: (path = '') => fetchTrendingRepositories('Go')
     },
     {
         path: '/trending-repositories/java',

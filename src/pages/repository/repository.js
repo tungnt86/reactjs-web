@@ -21,11 +21,11 @@ class Repository extends Component {
         } else {
             data = this.props.staticContext.data;
         }
-        const repositories = data ? data.items || null : null;
+        const repositories = data ? data.items.slice(0, 5) || null : null;
 
         this.state = {
             language: 'go',
-            repositories: repositories.slice(0, 5),
+            repositories: repositories,
             isLoading: !repositories,
             error: null
         };
@@ -145,12 +145,12 @@ class Repository extends Component {
                     description={this.getDescription()}
                     keywords={this.getKeywords()}
                 />
-                <div className={styles.topicPage}>
-                    <ul className={styles.topicNav}>
+                <div className={styles.repositoryPage}>
+                    <ul className={styles.repositoryNav}>
                         <li><NavLink activeStyle={activeItem} to="/trending-repositories/go" onClick={() => {this.handleOnNavClick("go")}}>go</NavLink></li>
                         <li><NavLink activeStyle={activeItem} to="/trending-repositories/java" onClick={() => {this.handleOnNavClick("java")}}>java</NavLink></li>
                     </ul>
-                    <div className={styles.topicCloud}>
+                    <div className={styles.repositoryContent}>
                         {this.renderContent()}
                     </div>
                 </div>

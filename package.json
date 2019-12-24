@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Tung Nguyen",
   "license": "MIT",
-  "description": "A web framework by ReactJS",
+  "description": "A simple boilerplate for ReactJS",
   "private": false,
   "babel": {
     "presets": [
