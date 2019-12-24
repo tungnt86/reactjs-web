@@ -1,7 +1,7 @@
 # ReactJs-Web is a minimalist boilerplate for ReactJS
 
 I built and used this simple boilerplate for some personal projects.
-Hopefully, this framework can help you to learn and start a website with ReactJS faster, easier.
+Hopefully, this framework can help you to learn and start a website with ReactJS faster and easier.
 
 ### What you can benefit from ReactJs-Web?
 - Server side rendering.
